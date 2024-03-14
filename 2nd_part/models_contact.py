@@ -4,11 +4,7 @@ from mongoengine import connect
 
 connect(
     db="web20",
-<<<<<<< HEAD
     host="mongodb+srv://goitlearn:******@goitlearn.w7mvfnf.mongodb.net/?retryWrites=true&w=majority&appName=goitlearn",
-=======
-    host="mongodb+srv://goitlearn:*******@goitlearn.w7mvfnf.mongodb.net/?retryWrites=true&w=majority&appName=goitlearn",
->>>>>>> b1b9122 (Update models_contact.py)
     tls=True,
     tlsInsecure=True,
 )
